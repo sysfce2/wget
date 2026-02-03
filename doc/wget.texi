@@ -1677,12 +1677,12 @@ users:
 @example
 @group
 # @r{Log in to the server.  This can be done only once.}
-wget --save-cookies cookies.txt \
-     --post-data 'user=foo&password=bar' \
+wget --save-cookies  cookies.txt \
+     --post-data  'user=foo&password=bar' \
      http://example.com/auth.php
 
 # @r{Now grab the page or pages we care about.}
-wget --load-cookies cookies.txt \
+wget --load-cookies  cookies.txt \
      -p http://example.com/interesting/article.php
 @end group
 @end example
@@ -3985,7 +3985,7 @@ or @samp{application/xhtml+xml} to @file{@var{name}.html}.
 
 @example
 wget --mirror --convert-links --backup-converted \
-     --adjust-extension -o /home/me/weeklog      \
+     --adjust-extension  -o /home/me/weeklog      \
      https://www.gnu.org/
 @end example
 

@@ -488,7 +488,7 @@ no_prefix (const char *s)
 }
 
 /* The arguments that that main passes to getopt_long. */
-static struct option long_options[2 * countof (option_data) + 1];
+static const struct option long_options[2 * countof (option_data) + 1];
 static char short_options[128];
 
 /* Mapping between short option chars and option_data indices. */
