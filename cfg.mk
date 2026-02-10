@@ -10,7 +10,9 @@ export VC_LIST_EXCEPT_DEFAULT=^(lib/.*|m4/.*|md5/.*|build-aux/.*|src/gettext\.h|
 config_h_header = "wget\.h"
 
 local-checks-to-skip = \
+    sc_const_long_option \
     sc_error_message_uppercase \
+    sc_two_space_separator_in_usage \
     sc_useless_cpp_parens \
     \
     sc_prohibit_atoi_atof \
