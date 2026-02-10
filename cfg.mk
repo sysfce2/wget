@@ -20,7 +20,8 @@ local-checks-to-skip = \
     sc_cast_of_argument_to_free \
     sc_prohibit_gnu_make_extensions \
 	\
-	sc_indent
+	sc_indent \
+	sc_codespell
 
 #SHELL=bash -x
 show-vc-list-except:
