@@ -68,6 +68,10 @@ all_tests(void)
 #endif
   mu_run_test (test_parse_netrc);
   mu_run_test (test_retr_rate);
+  mu_run_test (test_construct_relative);
+  mu_run_test (test_match_except_index);
+  mu_run_test (test_find_fragment);
+  mu_run_test (test_html_quote_string);
 
   return NULL;
 }
